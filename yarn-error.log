@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @material-ui/core
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\ekdms\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\ekdms\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ekdms\AppData\Roaming\npm;C:\Users\ekdms\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\ekdms\Desktop\Project\Secondhand-world\node_modules\deasync\bin\win32-x64-node-10\deasync.node'
+
+npm manifest: 
+  {
+    "name": "secondhand-world",
+    "version": "1.0.0",
+    "description": "online secondhand market project",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "parcel index.html"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/allinmydream/Secondhand-world.git"
+    },
+    "author": "Daeun Park",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/allinmydream/Secondhand-world/issues"
+    },
+    "homepage": "https://github.com/allinmydream/Secondhand-world#readme",
+    "dependencies": {
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "parcel-bundler": "^1.12.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

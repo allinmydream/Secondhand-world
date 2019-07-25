@@ -1,0 +1,30 @@
+{
+  "name": "secondhand-world",
+  "version": "1.0.0",
+  "description": "online secondhand market project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allinmydream/Secondhand-world.git"
+  },
+  "author": "Daeun Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allinmydream/Secondhand-world/issues"
+  },
+  "homepage": "https://github.com/allinmydream/Secondhand-world#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.3"
+  }
+}
