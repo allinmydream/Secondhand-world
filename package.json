@@ -18,8 +18,20 @@
   },
   "homepage": "https://github.com/allinmydream/Secondhand-world#readme",
   "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
+    "N": "^0.1.0",
+    "apollo-boost": "^0.4.3",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.3",
+    "apollo-link-http": "^1.5.15",
+    "components": "^0.1.0",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
